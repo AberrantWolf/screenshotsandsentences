@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    background: #eee;
-    color: #333;
-    font-family: sans-serif;
+    background: #2f3a4e;
+    color: silver;
+    font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -13,4 +13,23 @@ main {
 
 nav {
     float: right;
+}
+
+a {
+    color: #2da2fe;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #72c2ff;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+}
+
+.grid-item {
+    border: silver;
 }
